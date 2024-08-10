@@ -1,0 +1,7 @@
+#################
+## Ignoring files
+#################
+
+.idea/
+Learning.iml
+out/
