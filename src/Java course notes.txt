@@ -1,0 +1,50 @@
+#3 First code in java
+
+jshell was introduced in java 9 to run simple java code
+When we write a code we need to compile the code javac <filename>
+
+
+#4 How Java works
+
+Hello.java --> complied using javac Hello.java --> byte code is Hello.class using java Hello --> runned by JRE(JVM)
+
+Java needs jre to run the byte code because it might need additional library. So the jdk>>jre>>jvm
+Jdk contains jre and jvm. WORA write once run anywhere which means compile the code and run any device which has jvm installed
+
+
+#5 Varibles in java
+
+In java declare the data type first then using the variable name
+
+#6 Data Types in java (PrimitiveDataTypes.java)
+
+In java we have two types of data types
+1) Primitive data types
+    a) Integer
+        byte - 1 byte
+        short - 2 bytes
+        int - 4 bytes
+        long - 8 bytes. For declaring long we need to declare l at the end. Eg: long ln = 1234566l;
+    b) Float
+        float - 4 bytes
+        double - 8 bytes . In java if we dont declare point values it will by default takes double.
+            If we want to have float we need to declare f at the end. Eg: float fl = 5.6f;
+    c) Character
+        char - 2 bytes java follows UNICODE
+    d) Boolean
+        boolean - true or false. In java we dont have 0 or 1. It is not valid in java.
+
+#7 literal in java (PrimitiveDataTypes.java)
+    literals are the literal values which we assign. Eg: int num = 7; Here 7 is the literal
+    we can also work with base 2. Eg: int num = 0b101;
+    we can work with hexadecimal numbers. Eg: int hexa = 0xE7;
+    Long numbers can add underscore for easy reading. Eg: double value = 10_00_00_000;
+    we can use epsilon in between. Eg double distance = 12e10;
+    characters can be printed as number. Eg char letter = 'a'; c++;  we will get letter as b. As it is incremented.
+
+
+
+
+
+
+
