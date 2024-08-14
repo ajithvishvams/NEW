@@ -41,7 +41,11 @@ In java we have two types of data types
     Long numbers can add underscore for easy reading. Eg: double value = 10_00_00_000;
     we can use epsilon in between. Eg double distance = 12e10;
     characters can be printed as number. Eg char letter = 'a'; c++;  we will get letter as b. As it is incremented.
-
+#8 Type conversion in java (TypeConversion.java)
+    we can store a large data type into small using casting. If we assign int a = 257; it will do 257%256 and store 1 in a.
+    As 256 is the range for int.
+    If byte a = 10; byte b = 30; int result = a*b; . Here the result value is more than the byte range so java will promote the
+    value to int. This is called type prmotions.
 
 
 
