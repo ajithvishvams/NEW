@@ -77,11 +77,37 @@ In java we have two types of data types
     we can reduce the if else to ternary operation // ?:
     first condition ? true execute this : false execute this
 
-#15 Switch statement in java
+#15 Switch statement in java (SwitchStatement.java)
 
     We can use switch to have condition checked by case is matching and execute the code.
     If we dont use the break. Once the case matched it will execute all the below cases.
     We can write a default case if no one case is matching.
+
+Switch update:
+    To use new switch we must need java 12 and above
+    now we can use -> instead of using : {code}; break;
+    if we want to use : we need to yield
+
+        String s = "Monday";
+        switch (s){
+            case "Monday", "Wednesday" -> System.out.println("Meeting @ 12.00 PM");
+            case "Tuesday", "Thursday" -> System.out.println("Meeting @ 02.00 PM");
+            default-> System.out.println("Value is above 7");
+        }
+        String result = "";
+        result = switch (s){
+            case "Monday", "Wednesday" -> "12.00 PM";
+            case "Tuesday", "Thursday" -> "02.00 PM");
+            default-> "Value is above 7";
+        };
+        String yieldresult = "";
+        yieldresult = switch (s){
+            case "Monday", "Wednesday": yield "12.00 PM";
+            case "Tuesday", "Thursday": yield  "02.00 PM");
+            default : yield "Value is above 7";
+        };
+        System.out.println(result);
+        System.out.println(yieldresult);
 
 
 
