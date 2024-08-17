@@ -6,13 +6,13 @@ When we write a code we need to compile the code javac <filename>
 
 #4 How Java works
 
-Hello.java --> complied using javac Hello.java --> byte code is Hello.class using java Hello --> runned by JRE(JVM)
+Hello.java --> complied using javac Hello.java --> byte code is Hello.class using java Hello --> run by JRE(JVM)
 
 Java needs jre to run the byte code because it might need additional library. So the jdk>>jre>>jvm
 Jdk contains jre and jvm. WORA write once run anywhere which means compile the code and run any device which has jvm installed
 
 
-#5 Varibles in java
+#5 Variables in java
 
 In java declare the data type first then using the variable name
 
@@ -45,7 +45,45 @@ In java we have two types of data types
     we can store a large data type into small using casting. If we assign int a = 257; it will do 257%256 and store 1 in a.
     As 256 is the range for int.
     If byte a = 10; byte b = 30; int result = a*b; . Here the result value is more than the byte range so java will promote the
-    value to int. This is called type prmotions.
+    value to int. This is called type promotions.
+
+#9 Arithmetic operations in Java
+
+    + addition, - subtraction, * multiplication, / gives quotient, % gives reminder
+    int a = 5;
+    int b = a++ // post increment, first assign the value then increment the value b
+    int c = ++a // pre increment, first increment the value then assign to the value c
+    int d += 2; , instead of int d = d + 2; we can use shorthand operator.
+
+#10 Relational operators in java
+
+    <, > , ==, <= , >= , != we can use this to compare primitive data types
+
+#11 Logical operators in java
+
+    ||, &&, ! we can use this with relational operators
+
+#12 If else in java
+
+    we can use conditional statements to allow the flow of code with certain conditions.
+    if(true) then execute the if block, but if its false execute else.
+
+#13 if else if in java
+
+    if(true) then execute the if block, but if its false execute else if, if that also false do else
+
+#14 Ternary operators in java
+
+    we can reduce the if else to ternary operation // ?:
+    first condition ? true execute this : false execute this
+
+#15 Switch statement in java
+
+    We can use switch to have condition checked by case is matching and execute the code.
+    If we dont use the break. Once the case matched it will execute all the below cases.
+    We can write a default case if no one case is matching.
+
+
 
 
 
