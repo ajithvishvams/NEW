@@ -109,6 +109,14 @@ Switch update:
         System.out.println(result);
         System.out.println(yieldresult);
 
+#16 Need for loop in java
+    To run a task repeatedly based on some conditions.
+    We have for, while, do while loops.
+
+#17 While loop in java
+    To run a task repeatedly based on some conditions.
+
+
 
 
 
