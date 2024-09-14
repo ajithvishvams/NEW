@@ -113,14 +113,22 @@ Switch update:
     To run a task repeatedly based on some conditions.
     We have for, while, do while loops.
 
-#17 While loop in java
+#17 While loop in java (DoWhileLoop.java)
     To run a task repeatedly based on some conditions.
 
-#18 Do while loop in java
+#18 Do while loop in java (DoWhileLoop.java)
     If we want to run a loop once and if the litrator is true then
     run the loop.
     Eg: user a wants to send a message to user b is he is not
     available stop the condition.
+
+#19 For loop in java (ForLoop.java)
+    For loop run first 2 step .
+    Eg: for(int i = 0; i <=4 ; i++)
+    Here first it will execute i is 0 and i <= 4 then,
+    runs the {} block then i++ is done.
+    As while will only check if It's true or not
+
 
 
 
