@@ -116,6 +116,12 @@ Switch update:
 #17 While loop in java
     To run a task repeatedly based on some conditions.
 
+#18 Do while loop in java
+    If we want to run a loop once and if the litrator is true then
+    run the loop.
+    Eg: user a wants to send a message to user b is he is not
+    available stop the condition.
+
 
 
 
