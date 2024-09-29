@@ -129,6 +129,40 @@ Switch update:
     runs the {} block then i++ is done.
     As while will only check if It's true or not
 
+#20 Which loop to use in java
+    Mostly for loop, if file system or database while
+    and when we want to run even though condition is false once
+
+#21 Class and Object theory in java
+    Lets assume we need a table
+    We ask carpenter to make it, but he need technical details such as height
+    User can tell he need a computer table to a middle man
+    That middle man can tell technical details to the carpenter
+    Similarly in programming middle man is the class
+    carpenter is the JVM which will create object (table)
+    Using class (blueprint).
+
+#22 Class and Object practical in java
+    A class is used to create an object which knows some thing
+    and can do something.
+    class Calculator{
+     int a;
+    public int add(int n1, int n2){
+      int x = n1+n2;
+      System.out.println("in add method");
+
+      return x;
+    }
+    }
+    Calculator cal = new Calculator();
+    int result = cal.add(5,9);
+    Here Calculator class knows properties such as int a
+    and it can do some things like add method.
+
+
+
+
+
 
 
 
