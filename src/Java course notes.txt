@@ -171,6 +171,12 @@ Switch update:
     running, color using methods. So we will create a Wheel class
     with behaviour such as color (method).
 
+#25 Method Overloading in Java
+    Methods can take different parameter as input with same method name
+    this is called method overloading in Java. But cant take same parameter with
+    different types.
+
+
 
 
 
