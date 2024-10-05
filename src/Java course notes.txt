@@ -163,6 +163,14 @@ Switch update:
     JDk contains JRE and JVM. Java is platform-independent at the byte code level
     but needs a platform-dependent JVM to run the byte code
 
+#24 Methods in Java(Methods.java)
+    main method will execute first in a Java code
+    An object can take some properties
+    Eg: Car contains many parts like wheel, and door
+    In a Car contains object such as a wheel. We can have behaviour of wheel such as
+    running, color using methods. So we will create a Wheel class
+    with behaviour such as color (method).
+
 
 
 
