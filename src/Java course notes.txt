@@ -171,10 +171,39 @@ Switch update:
     running, color using methods. So we will create a Wheel class
     with behaviour such as color (method).
 
-#25 Method Overloading in Java
+#25 Method Overloading in Java(MethodOverloading.java)
     Methods can take different parameter as input with same method name
     this is called method overloading in Java. But cant take same parameter with
     different types.
+
+#26 Stack and Heap in Java
+
+    class Calculator{
+        int num = 5;
+        public int add(int n1 , int n2){
+            return n1+n2;
+        }
+    }
+    public class Demo {
+        public static void main (String args[]){
+            int a = 10;
+            Calculator cal = new Calculator();
+            Calculator cal1 = new Calculator();
+            int result = cal.add(1,3,4);
+        }
+    }
+    In this main stack will hold values of a, result, cal and cal1,
+    cal and cal1 point out to the heap memory which will create separate object,
+    add method will create one more stack which will n1. n2 values.
+
+
+#27 Need of an Array in Java
+    To store multiple values in a single variable.
+
+#28 Creation of Array in Java(Arrays.java)
+    We can declare the array values in the starting if we know.
+    If not we can say it has how many values and default it will be '0'.
+    Later we can add the values
 
 
 
